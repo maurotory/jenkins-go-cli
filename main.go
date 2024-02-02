@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/maurotory/jenkins-go-cli/cmd"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	cmd.Execute()
 
 }
